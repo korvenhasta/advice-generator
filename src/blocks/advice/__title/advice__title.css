@@ -1,0 +1,24 @@
+
+
+.advice__title {
+    font-family: 'Manrope Extra Bold', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 3.45714px;
+    color: #53FFAA;
+    padding: 40px 0 24px 0;
+    margin: 0;
+}
+
+@media screen and (min-width: 1440px) {
+    .advice__title {
+        font-weight: 800;
+        font-size: 13px;
+        line-height: 18px;
+        letter-spacing: 4.08571px;
+        padding: 48px 0 24px 0;
+    }
+}

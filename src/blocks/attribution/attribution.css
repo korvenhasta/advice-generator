@@ -1,0 +1,24 @@
+/* Footer settings */
+
+@import url("../attribution/__link/attribution__link.css");
+
+.attribution {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-family: 'Manrope Regular', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    text-align: center;
+    color: #CEE3E9;
+    padding: 20px 0;
+}
+
+@media screen and (min-width: 768px) {
+    .attribution {
+        font-size: 14px;
+        line-height: 24px;
+    }
+}

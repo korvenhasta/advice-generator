@@ -1,0 +1,21 @@
+/* Body settings */
+
+.root {
+    background: #202733;
+    min-height: 100vh;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    max-width: 2560px;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 1440px) {
+    .root {
+        background-image: url("/src/images/pattern-divider-desktop.svg");
+        background-repeat: no-repeat;
+        background-position: top 467px right 250px;
+    }
+}

@@ -1,0 +1,12 @@
+@import url("../vendor/normalize.css");
+@import url("../vendor/fonts.css");
+@import url("../blocks/root/root.css");
+@import url("../blocks/advice/advice.css");
+@import url("../blocks/attribution/attribution.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+}

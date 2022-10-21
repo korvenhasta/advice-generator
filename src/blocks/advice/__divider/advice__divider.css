@@ -1,0 +1,13 @@
+
+
+.advice__divider {
+    width: 295px;
+    height: 16px;
+    margin: 0 24px 64px 24px;
+}
+
+@media screen and (min-width: 1440px) {
+    .advice__divider {
+        display: none;
+    }
+}
