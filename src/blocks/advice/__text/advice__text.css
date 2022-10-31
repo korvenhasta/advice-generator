@@ -1,37 +1,22 @@
 
 
 .advice__text {
-    position: relative;
     font-family: 'Manrope Extra Bold', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 24px;
-    line-height: 33px;
+    line-height: var(--line-height-m);
     text-align: center;
     letter-spacing: -0.257143px;
     color: #CEE3E9;
-    padding: 0 24px 24px 24px;
-    min-height: 190px;
-}
-
-@media screen and (min-width: 768px) {
-    .advice__text {
-        min-height: 165px;
-    }
-}
-
-@media screen and (min-width: 1024px) {
-    .advice__text {
-        min-height: 132px;
-    }
+    padding: 0 var(--space-s) var(--space-s) var(--space-s);
 }
 
 @media screen and (min-width: 1440px) {
     .advice__text {
-        min-height: 190px;
         font-size: 28px;
         line-height: 38px;
         letter-spacing: -0.3px;
-        padding: 0 48px 128px 48px;
+        padding: 0 48px 48px 48px;
     }
 }
